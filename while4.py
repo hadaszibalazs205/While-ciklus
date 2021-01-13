@@ -1,9 +1,9 @@
-"""4. Feladat
-Írj egy programot, amely a felhasználó által meghatározott alkalommal írja ki a bekért szöveget!"""
+#4. Feladat
+#Írj egy programot, amely a felhasználó által meghatározott alkalommal írja ki a bekért szöveget!
 
-szoveg = input()
-szam = int(input())
+szoveg = input("Kérek egy szöveget.")
+szam = int(input("Kérek egy számot."))
 
-while szam < 0:
+while szam >= 0:
   print(szoveg * szam)
-  szam = szam - 1
+  break

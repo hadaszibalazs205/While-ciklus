@@ -1,5 +1,5 @@
-"""2. Feladat
-Írj egy programot, amely csökkenő sorrendben írja ki a számokat 1 és 10 között!"""
+#2. Feladat
+#Írj egy programot, amely csökkenő sorrendben írja ki a számokat 1 és 10 között!
 
 szam = 9
 while szam > 1:
