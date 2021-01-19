@@ -2,10 +2,10 @@
 
 szám = int(input("Kérek egy páros számot. "))
 
-while szám >= sor:
+while szám <= sor:
   sor = 1
   szám == sor
-  while szám <= sor:
+  while 
     print('O ', end='')
     sor = sor + 1
     print('')
