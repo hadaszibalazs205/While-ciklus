@@ -1,1 +1,1 @@
-import while6
+import ciklus1
