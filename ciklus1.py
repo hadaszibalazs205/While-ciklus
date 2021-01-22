@@ -1,12 +1,13 @@
 #Készíts egy programot, amely a felhasználótól bekér egy páros számot,majd ennek megfelelően rajzol ki a képernyőre egy pocak szerű alakzatot az alábbiak szerint! 
 
-szám = int(input("Kérek egy páros számot. "))
-
-while szám <= sor:
-  sor = 1
-  szám == sor
-  while 
+bekert_szám = int(input("Adj meg egy páros számot! "))
+sor = 0
+while sor <= bekert_szám:
+  oszlop = 0
+  while oszlop <= sor+1:
     print('O ', end='')
-    sor = sor + 1
+    oszlop = oszlop + 1
     print('')
-    szam = szam + 1
+    bekert_szám = bekert_szám + 1
+    sor = sor + 1
+    
